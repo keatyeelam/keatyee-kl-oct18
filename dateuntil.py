@@ -10,3 +10,6 @@ import datetime
 
 currentdate = datetime.date.today()
 print (currentdate.strftime('Please attend our event %A, %B %d in the year %Y'))
+
+print (currentdate + datetime.timedelta(days=15))
+print (currentdate + datetime.timedelta(hours=15))
