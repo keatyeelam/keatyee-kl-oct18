@@ -14,3 +14,6 @@ print (currenttime)
 print (currenttime.hour)
 print (currenttime.minute)
 print (currenttime.second)
+
+print (datetime.datetime.strftime(currenttime,'%H:%M'))
+print (datetime.datetime.strftime(currenttime,'%I:%M %p'))
