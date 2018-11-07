@@ -17,6 +17,6 @@ for row in datafromfile:
 #    print(row)
 #    for values in row:
 #        print(values + "\n")
-    print(','.join(row))
+    print(' '.join(row))
     
 mycsvfile.close()

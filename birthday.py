@@ -13,3 +13,7 @@ birthday = input ("What is your birthday? (dd/mm/yyyy):")
 birthdate = datetime.datetime.strptime(birthday,"%d/%m/%Y").date()
 
 print ("Your birth month is " + birthdate.strftime('%B'))
+
+currentdate = datetime.date.today()
+print (birthdate - currentdate)
+
