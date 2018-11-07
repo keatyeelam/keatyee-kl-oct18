@@ -14,6 +14,9 @@ datafromfile = csv.reader(mycsvfile)
 print(datafromfile)
 
 for row in datafromfile:
-    print(row)
+#    print(row)
+#    for values in row:
+#        print(values + "\n")
+    print(','.join(row))
     
 mycsvfile.close()
