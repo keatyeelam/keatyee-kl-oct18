@@ -14,6 +14,8 @@ class PuppyNewGen:
         else:
             return None
 
+    
+
 dog = PuppyNewGen()
 dog['Max'] = 'brown'
 dog['Ruby'] = 'yellow'
